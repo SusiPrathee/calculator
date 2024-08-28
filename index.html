@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .calc
+        {
+            height: 450px;
+            width: 300px;
+            background-color: black;
+            border-radius: 10px;
+            align-items: center;
+            margin: 50px ;
+            /* display: flex;
+            justify-content: space-between;
+            flex-direction: column; */
+           
+
+           
+        }
+        input
+        {
+            height: 40px;
+            width: 280px;
+            font-size: 27px;
+            border-radius: 10px;
+            margin:5px ;
+        }
+        .st
+        {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            row-gap: 15px;
+        
+            /* display: flex;
+            justify-content: space-between;
+            flex-direction: column; */
+        }
+        button
+        {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            gap: 10px;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+        button:hover
+        {
+            height: 55px;
+            width: 55px;
+            color: deeppink;
+            box-shadow: 3px 3px 10px rgb(243, 165, 178);
+        }
+        .AC 
+        {
+            background-color: darkgray;
+           
+        }
+        .AC3
+        {
+            background-color: orange;
+            font-size: 30px;
+           
+        }
+        .AC1
+        {
+            background-color: orange;
+        }
+        .AC2
+        {
+            background-color: black;
+            border: 2px solid ;
+            color: azure;
+           
+        }
+
+        h1
+        {
+             color:white;
+        }
+        .zero
+        {
+            display: flex;
+             justify-content: space-between;
+
+        }
+
+    </style>
+</head>
+<body>
+    <center><div class="calc">
+  <div> <center><input type="name" name="name" id="calc b" placeholder="Welcome To Calculator" ></center></div>
+  <div class="zero"><div></div><div><h1>0</h1></div></div>
+  <div class="st" id="calc">
+    <div><button onclick="AC()" class="AC" >AC</button></div>
+    <div><button onclick="AR()" class="AC" ><i class="fa-solid fa-arrow-left"></i></button></div>
+    <div><button onclick="MOD()" class="AC" >%</button></div>
+    <div><button onclick="DIV()" class="AC1" ><i class="fa-solid fa-divide"></i></button></div>
+    <div><button onclick="SE()" class="AC2" >7</button></div>
+    <div><button onclick="EI()" class="AC2" >8</button></div>
+    <div><button onclick="NI()" class="AC2" >9</button></div>
+    <div><button onclick="MUL()" class="AC3" >*</button></div>
+    <div><button onclick="FO()" class="AC2" >4</button></div>
+    <div><button onclick="FI()" class="AC2" >5</button></div>
+    <div><button onclick="SI()" class="AC2" >6</button></div>
+    <div><button onclick="SUB()" class="AC3" >-</button></div>
+    <div><button onclick="TH()" class="AC2" >3</button></div>
+    <div><button onclick="TW()" class="AC2" >2</button></div>
+    <div><button onclick="ON()" class="AC2" >1</button></div>
+    <div><button onclick="ADD()" class="AC3" >+</button></div>
+    <div><button onclick="ZE()" class="AC2" >0</button></div>
+    <div><button onclick="ZERO()" class="AC2" >00</button></div>
+    <div><button onclick="DOT()" class="AC2" >.</button></div>
+    <div><button onclick="EQ()" class="AC3" >=</button></div>
+    
+  </div>
+
+    </div></center>
+</body>
+<script src=""></script>
+</html>
